@@ -16,8 +16,12 @@ To support workflows, git commands and features are assigned with guidelines to 
 | Download objects and refs/references from another/remote repository. | `fetch` | Fetch branches and/or tags \(collectively, "refs"\) from one or more other repositories, along with the objects necessary to complete their histories. Remote-tracking branches are updated. |
 | Join two or more development histories together | `merge` | Incorporates changes from the named commits \(since the time their histories diverged from the current branch\) into the current branch. |
 | Record changes to the repository | `commit` | Stores the current contents of the index in a new commit along with a log message from the user describing the changes. |
-|  | `push` |  |
-|  | `pull` |  |
+| Update remote refs along with associated objects | `push` | Updates remote refs using local refs, while sending objects necessary to complete the given refs. |
+| Fetch from and integrate with another repository or a local branch | `pull` | Incorporates changes from a remote repository into the current branch. In its default mode, git pull is shorthand for `git fetch` followed by `git merge FETCH_HEAD`. |
+
+
+
+#### Workflow
 
 
 
