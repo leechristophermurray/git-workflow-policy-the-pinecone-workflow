@@ -19,9 +19,11 @@ To support workflows, git commands and features are assigned with guidelines to 
 | Update remote refs along with associated objects | `push` | Updates remote refs using local refs, while sending objects necessary to complete the given refs. |
 | Fetch from and integrate with another repository or a local branch | `pull` | Incorporates changes from a remote repository into the current branch. In its default mode, git pull is shorthand for `git fetch` followed by `git merge FETCH_HEAD`. |
 
-
-
 #### Workflow
 
+The workflow we'll be focussing on is one I've called pinecone workflow, we'll see why in just a bit. The default branch on a git repo, which is created once a repo is initialized, is the master branch. This we will consider to be our stable branch and it is deemed fit for release. We will have another branch called `dev`/`develop`/`development`, which will be our "hub" for where development taks place. Our develop branch will be as stable as we can get it to be- though often times it will have most features being stable and others not so stable \(with their sub features being mostly stable\). We will have several branches which will be per feature or per sub-feature, if necessary. These feature branches, as we will call them, will be merged into our develop branch as soon as they are complete- and prefereably not before. The develop branch will ONLY be merged into the master/release branch when it is stable enough and have met all the other conditions necessary.
 
+
+
+![](/assets/Git WorkFlow Policy- Branching.svg)
 
