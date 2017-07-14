@@ -23,5 +23,14 @@ To support workflows, git commands and features are assigned with guidelines to 
 
 The workflow we'll be focussing on is one I've called pinecone workflow, we'll see why in just a bit. The default branch on a git repo, which is created once a repo is initialized, is the master branch. This we will consider to be our live branch which is merged into by release branch. We will have another branch called `dev`/`develop`/`development`, which will be our "hub" for where development taks place. Our develop branch will be as stable as we can get it to be- though often times it will have most features being stable and others not so stable \(with their sub features being mostly stable\). We will have several branches which will be per feature or per sub-feature, if necessary. Patches, hopefully there need not be any, if absolutely necessary, will be merged to the release branch once all patch requirements are satisfied. A patch or a batch of patches can make a minor release. Feature branches, as we will call them, will be merged into our develop branch as soon as they are complete- and prefereably not before. The develop branch will ONLY be merged into the release branch when it is stable enough and have met all the other conditions necessary. Any merges to the release branch is considered a release, which may be major or minor. Major releases are prered to be labelled so when a Milestone has been reached.
 
-![](/assets/Git WorkFlow Policy- Branching.svg)
+![](/assets/Git WorkFlow Policy- Branching.svg)  
+
+
+It is important to note that before every push, the developer should check to see their branch is in syne with the develop branch. This will help to solve merge conflicts  locally, before pushing them. Here is a basic guide on the recommended practise.
+
+![](/assets/Git WorkFlow Policy- Push.svg)
+
+
+
+With the top-most as the begining and going counter clockewise, as a branch is started or whenever the developer is ready to resume work on a branch, one should fetch refs from the remote, then merge them in. After work is done on the project they should add their changes to staging then commit them. Once all changes have been commited, another fetch and merge should be done, just in case there are changes to the remote, then they should push their changes. Fetching is done from the remote develop branch, then pushed to the remote feature branch. After this, a pull request should be done to merge the feature branch into the develop branch.
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="15cm" height="18cm" viewBox="472 102 293 342" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 619,159 A 175.13,175.13 0 0 0 513.192,206.87"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515.081,197.797 511.576,208.414 522.173,204.847 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #000000" d="M 507,211 A 168.43,168.43 0 0 0 479.421,290.309"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #000000" points="474.578,283.444 479.144,293.649 484.569,283.873 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" d="M 481,307 A 154.168,154.168 0 0 0 597.042,437.547"/>
+    <polygon style="fill: #ffffff" points="596.116,442.952 606.793,439.638 597.736,433.084 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="596.116,442.952 606.793,439.638 597.736,433.084 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" d="M 627,440 A 134.702,134.702 0 0 0 757.479,317.187"/>
+    <polygon style="fill: #ffffff" points="763.032,317.223 758.006,307.236 753.032,317.249 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="763.032,317.223 758.006,307.236 753.032,317.249 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 760,296 A 136.248,136.248 0 0 0 642.149,163.103"/>
+    <polygon style="fill: #ffffff" points="642.452,157.565 632.234,162.102 641.995,167.554 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="642.452,157.565 632.234,162.102 641.995,167.554 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="544" y="195">
+    <tspan x="544" y="195">fetch</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="492" y="258">
+    <tspan x="492" y="258">merge</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="513" y="377">
+    <tspan x="513" y="377">add .</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="685" y="376">
+    <tspan x="685" y="376">commit</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="709" y="234">
+    <tspan x="709" y="234">push</tspan>
+  </text>
+  <text font-size="14.2127" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="517" y="118">
+    <tspan x="517" y="118">Git WorkFlow Policy: Pushing</tspan>
+  </text>
+</svg>
