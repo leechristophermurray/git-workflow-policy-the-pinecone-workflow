@@ -29,5 +29,7 @@ It is important to note that before every push, the developer should check to se
 
 ![](/assets/Git WorkFlow Policy- Push.svg)
 
-With the top-most as the begining and going counter clockewise, as a branch is started or whenever the developer is ready to resume work on a branch, one should fetch refs from the remote, then merge them in. After work is done on the project they should add their changes to staging then commit them. Once all changes have been commited, another fetch and merge should be done, just in case there are changes to the remote, then they should push their changes. Fetching is done from the remote develop branch, then pushed to the remote feature branch. After this, a pull request should be done to merge the feature branch into the develop branch.
+With the top-most as the begining and going counter clockewise, as a branch is started or whenever the developer is ready to resume work on a branch, one should fetch refs from the remote, then merge them in. After work is done on the project they should add their changes to staging then commit them. Once all changes have been commited, another fetch and merge should be done, just in case there are changes to the remote, then they should push their changes. Fetching is done from the remote develop branch, then pushed to the remote feature branch. After this, a pull request should be done to merge the feature branch into the develop branch. With this procedure for pushing updates to a branch considered, the branching diagram ideally will look somthing like this:
+
+![](/assets/Git WorkFlow Policy- Branching_real.svg)
 
