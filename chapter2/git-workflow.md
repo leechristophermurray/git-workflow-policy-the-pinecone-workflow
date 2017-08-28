@@ -33,3 +33,23 @@ With the top-most as the begining and going counter clockewise, as a branch is s
 
 ![](/assets/Git WorkFlow Policy- Branching_real.svg)
 
+## Milestones and Labels
+
+
+
+### Milestones
+
+![](https://guides.github.com/features/issues/milestones.png "Viewing Milestones")
+
+Milestones are groups of issues that correspond to a project, feature, or time period. People use them in many different ways in software development. Some examples of milestones on GitHub include:
+
+* **Beta Launch**— File bugs that you need to fix before you can launch the beta of your project. It’s a great way to make sure you aren’t missing anything.
+
+* **October Sprint**— File issues that you’d like to work on in October. A great way to focus your efforts when there’s a lot to do.
+
+* **Redesign**— File issues related to redesigning your project. A great way to collect ideas on what to work on.
+
+### Labels
+
+Labels are a great way to organize different types of issues. Issues can have as many labels as you want, and you can filter by one or many labels at once.![](/assets/labels-1.png)
+
