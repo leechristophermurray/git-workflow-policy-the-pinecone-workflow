@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1556075798-4825dfaaf498?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxnaXR8ZW58MHx8fHwxNjUyMjY3MTE3&ixlib=rb-1.2.1&q=85
+coverY: 0
+---
+
 # chapter2/git-workflow.md
 
 With a git-based versioning system comes many commands, functions, and possibilities. Considering these things, some have stuck with employing git under guidelines that follow particular methodologies. With skinning a cat being versioning the progress (development, improvement, and maintenance) of projects, these many ways to skin a cat are considered as workflows. A workflow may be focused around how the main version (master branch) of a project is updated, how contributors may contribute, what conditions are required for versions to be created, and many more considerations. A Workflow may even be an amalgamation of many workflows. There is no absolute standard, as workflows are best practices that at times are situational. A workflow may even require revision as time progresses and teams change.

@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1556075798-4825dfaaf498?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxnaXR8ZW58MHx8fHwxNjUyMjY3MTE3&ixlib=rb-1.2.1&q=85
+coverY: 0
+---
+
 # chapter1/a-brief-introduction-to-git.md
 
 ## What is Version Control? <a href="#what-is-version-control" id="what-is-version-control"></a>
