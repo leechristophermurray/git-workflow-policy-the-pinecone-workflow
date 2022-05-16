@@ -1,9 +1,6 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
-* [chapter1/a-brief-introduction-to-git.md](chapter1/a-brief-introduction-to-git.md)
-* [chapter2/git-workflow.md](chapter2/git-workflow.md)
-* [chapter3/syntax.md](/chapter3/syntax.md)
-
-
-
+* [A Brief Introduction to Git](chapter1/a-brief-introduction-to-git.md)
+* [Git Workflow](chapter2/git-workflow.md)
+* [Syntax](chapter3/syntax.md)
